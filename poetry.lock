@@ -11,11 +11,6 @@ files = [
     {file = "aiohappyeyeballs-2.4.0.tar.gz", hash = "sha256:55a1714f084e63d49639800f95716da97a1f173d46a16dfcfda0016abb93b6b2"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "aiohttp"
 version = "3.10.5"
@@ -127,11 +122,6 @@ yarl = ">=1.0,<2.0"
 [package.extras]
 speedups = ["Brotli", "aiodns (>=3.2.0)", "brotlicffi"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "aiosignal"
 version = "1.3.1"
@@ -145,11 +135,6 @@ files = [
 
 [package.dependencies]
 frozenlist = ">=1.1.0"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "alembic"
@@ -170,11 +155,6 @@ typing-extensions = ">=4"
 [package.extras]
 tz = ["backports.zoneinfo"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "annotated-types"
 version = "0.7.0"
@@ -185,11 +165,6 @@ files = [
     {file = "annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53"},
     {file = "annotated_types-0.7.0.tar.gz", hash = "sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "anyio"
@@ -211,11 +186,6 @@ doc = ["Sphinx (>=7)", "packaging", "sphinx-autodoc-typehints (>=1.2.0)", "sphin
 test = ["anyio[trio]", "coverage[toml] (>=7)", "exceptiongroup (>=1.2.0)", "hypothesis (>=4.0)", "psutil (>=5.9)", "pytest (>=7.0)", "pytest-mock (>=3.6.1)", "trustme", "uvloop (>=0.17)"]
 trio = ["trio (>=0.23)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "appdirs"
 version = "1.4.4"
@@ -226,11 +196,6 @@ files = [
     {file = "appdirs-1.4.4-py2.py3-none-any.whl", hash = "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"},
     {file = "appdirs-1.4.4.tar.gz", hash = "sha256:7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "asgiref"
@@ -245,11 +210,6 @@ files = [
 
 [package.extras]
 tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "asttokens"
@@ -268,11 +228,6 @@ six = ">=1.12.0"
 [package.extras]
 astroid = ["astroid (>=1,<2)", "astroid (>=2,<4)"]
 test = ["astroid (>=1,<2)", "astroid (>=2,<4)", "pytest"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "attrs"
@@ -293,11 +248,6 @@ docs = ["cogapp", "furo", "myst-parser", "sphinx", "sphinx-notfound-page", "sphi
 tests = ["cloudpickle", "hypothesis", "mypy (>=1.11.1)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-xdist[psutil]"]
 tests-mypy = ["mypy (>=1.11.1)", "pytest-mypy-plugins"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "backoff"
 version = "2.2.1"
@@ -308,11 +258,6 @@ files = [
     {file = "backoff-2.2.1-py3-none-any.whl", hash = "sha256:63579f9a0628e06278f7e47b7d7d5b6ce20dc65c5e96a6f3ca99a6adca0396e8"},
     {file = "backoff-2.2.1.tar.gz", hash = "sha256:03f829f5bb1923180821643f8753b0502c3b682293992485b0eef2807afa5cba"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "bcrypt"
@@ -354,11 +299,6 @@ files = [
 tests = ["pytest (>=3.2.1,!=3.3.0)"]
 typecheck = ["mypy"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "beautifulsoup4"
 version = "4.12.3"
@@ -380,17 +320,12 @@ charset-normalizer = ["charset-normalizer"]
 html5lib = ["html5lib"]
 lxml = ["lxml"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "boto3"
 version = "1.35.1"
 description = "The AWS SDK for Python"
 optional = false
-python-versions = ">= 3.8"
+python-versions = ">=3.8"
 files = [
     {file = "boto3-1.35.1-py3-none-any.whl", hash = "sha256:9fe1a97de136a89d2957e41e3591a7648a6e08d63165255b4cc69c5ba1e2a177"},
     {file = "boto3-1.35.1.tar.gz", hash = "sha256:9028dd814c7f06bc92822d1fabdd8b68fe39b5993da5ca7acd7f7c6f7c7c332f"},
@@ -404,17 +339,12 @@ s3transfer = ">=0.10.0,<0.11.0"
 [package.extras]
 crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "botocore"
 version = "1.35.1"
 description = "Low-level, data-driven core of boto 3."
 optional = false
-python-versions = ">= 3.8"
+python-versions = ">=3.8"
 files = [
     {file = "botocore-1.35.1-py3-none-any.whl", hash = "sha256:bce42967d0f03b79cf25b2b6a36221fb2fb15f98e6fa4155b66b672ab192013b"},
     {file = "botocore-1.35.1.tar.gz", hash = "sha256:e599cef6305e950a212f85adb86c1f4713d4b2678b3c2ec54df6b8e2dbe9ef2f"},
@@ -428,17 +358,12 @@ urllib3 = {version = ">=1.25.4,<2.2.0 || >2.2.0,<3", markers = "python_version >
 [package.extras]
 crt = ["awscrt (==0.21.2)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "build"
 version = "1.2.1"
 description = "A simple, correct Python build frontend"
 optional = false
-python-versions = ">= 3.8"
+python-versions = ">=3.8"
 files = [
     {file = "build-1.2.1-py3-none-any.whl", hash = "sha256:75e10f767a433d9a86e50d83f418e83efc18ede923ee5ff7df93b6cb0306c5d4"},
     {file = "build-1.2.1.tar.gz", hash = "sha256:526263f4870c26f26c433545579475377b2b7588b6f1eac76a001e873ae3e19d"},
@@ -456,11 +381,6 @@ typing = ["build[uv]", "importlib-metadata (>=5.1)", "mypy (>=1.9.0,<1.10.0)", "
 uv = ["uv (>=0.1.18)"]
 virtualenv = ["virtualenv (>=20.0.35)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "cachetools"
 version = "5.5.0"
@@ -472,11 +392,6 @@ files = [
     {file = "cachetools-5.5.0.tar.gz", hash = "sha256:2cc24fb4cbe39633fb7badd9db9ca6295d766d9c2995f245725a46715d050f2a"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "certifi"
 version = "2024.7.4"
@@ -487,11 +402,6 @@ files = [
     {file = "certifi-2024.7.4-py3-none-any.whl", hash = "sha256:c198e21b1289c2ab85ee4e67bb4b4ef3ead0892059901a8d5b622f24a1101e90"},
     {file = "certifi-2024.7.4.tar.gz", hash = "sha256:5a1e7645bc0ec61a09e26c36f6106dd4cf40c6db3a1fb6352b0244e7fb057c7b"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "charset-normalizer"
@@ -592,11 +502,6 @@ files = [
     {file = "charset_normalizer-3.3.2-py3-none-any.whl", hash = "sha256:3e4d1f6587322d2788836a99c69062fbb091331ec940e02d12d179c1d53e25fc"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "chroma-hnswlib"
 version = "0.7.3"
@@ -633,11 +538,6 @@ files = [
 
 [package.dependencies]
 numpy = "*"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "chromadb"
@@ -680,11 +580,6 @@ typer = ">=0.9.0"
 typing-extensions = ">=4.5.0"
 uvicorn = {version = ">=0.18.3", extras = ["standard"]}
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "click"
 version = "8.1.7"
@@ -699,17 +594,12 @@ files = [
 [package.dependencies]
 colorama = {version = "*", markers = "platform_system == \"Windows\""}
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "cohere"
 version = "5.8.1"
 description = ""
 optional = false
-python-versions = ">=3.8,<4.0"
+python-versions = "<4.0,>=3.8"
 files = [
     {file = "cohere-5.8.1-py3-none-any.whl", hash = "sha256:92362c651dfbfef8c5d34e95de394578d7197ed7875c6fcbf101e84b60db7fbd"},
     {file = "cohere-5.8.1.tar.gz", hash = "sha256:4c0c4468f15f9ad7fb7af15cc9f7305cd6df51243d69e203682be87e9efa5071"},
@@ -728,11 +618,6 @@ tokenizers = ">=0.15,<1"
 types-requests = ">=2.0.0,<3.0.0"
 typing_extensions = ">=4.0.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "colorama"
 version = "0.4.6"
@@ -743,11 +628,6 @@ files = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "coloredlogs"
@@ -766,17 +646,12 @@ humanfriendly = ">=9.1"
 [package.extras]
 cron = ["capturer (>=2.4)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "crewai"
 version = "0.51.1"
 description = "Cutting-edge framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
 optional = false
-python-versions = ">=3.10,<=3.13"
+python-versions = "<=3.13,>=3.10"
 files = [
     {file = "crewai-0.51.1-py3-none-any.whl", hash = "sha256:c36f23bb317726c84249fd1341363c7b9916ec0865dbe1c273ced94451c4dd89"},
     {file = "crewai-0.51.1.tar.gz", hash = "sha256:3266b08db6f06162816cb83b291b64ab4d8cd10b024b82478f62f5b368a32ce6"},
@@ -802,17 +677,12 @@ regex = ">=2023.12.25,<2024.0.0"
 agentops = ["agentops (>=0.3.0,<0.4.0)"]
 tools = ["crewai-tools (>=0.8.3,<0.9.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "dataclasses-json"
 version = "0.6.7"
 description = "Easily serialize dataclasses to and from JSON."
 optional = false
-python-versions = ">=3.7,<4.0"
+python-versions = "<4.0,>=3.7"
 files = [
     {file = "dataclasses_json-0.6.7-py3-none-any.whl", hash = "sha256:0dbf33f26c8d5305befd61b39d2b3414e8a407bedc2834dea9b8d642666fb40a"},
     {file = "dataclasses_json-0.6.7.tar.gz", hash = "sha256:b6b3e528266ea45b9535223bc53ca645f5208833c29229e847b3f26a1cc55fc0"},
@@ -821,11 +691,6 @@ files = [
 [package.dependencies]
 marshmallow = ">=3.18.0,<4.0.0"
 typing-inspect = ">=0.4.0,<1"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "decorator"
@@ -837,11 +702,6 @@ files = [
     {file = "decorator-5.1.1-py3-none-any.whl", hash = "sha256:b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186"},
     {file = "decorator-5.1.1.tar.gz", hash = "sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "deprecated"
@@ -860,11 +720,6 @@ wrapt = ">=1.10,<2"
 [package.extras]
 dev = ["PyTest", "PyTest-Cov", "bump2version (<1)", "sphinx (<2)", "tox"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "distro"
 version = "1.9.0"
@@ -875,11 +730,6 @@ files = [
     {file = "distro-1.9.0-py3-none-any.whl", hash = "sha256:7bffd925d65168f85027d8da9af6bddab658135b840670a223589bc0c8ef02b2"},
     {file = "distro-1.9.0.tar.gz", hash = "sha256:2fa77c6fd8940f116ee1d6b94a2f90b13b5ea8d019b98bc8bafdcabcdd9bdbed"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "docstring-parser"
@@ -892,17 +742,12 @@ files = [
     {file = "docstring_parser-0.16.tar.gz", hash = "sha256:538beabd0af1e2db0146b6bd3caa526c35a34d61af9fd2887f3a8a27a739aa6e"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "embedchain"
 version = "0.1.121"
 description = "Simplest open source retrieval (RAG) framework"
 optional = false
-python-versions = ">=3.9,<=3.13"
+python-versions = "<=3.13,>=3.9"
 files = [
     {file = "embedchain-0.1.121-py3-none-any.whl", hash = "sha256:c756e8750fb9e3431b6d2a0b0dfbb0dfebeae2d7669d3dd6894311a632abfe77"},
     {file = "embedchain-0.1.121.tar.gz", hash = "sha256:1427a43fd92b0e5303d0d733ebcd5310df14da8bd8dba0b08818d0d3658e7c3e"},
@@ -949,11 +794,6 @@ together = ["together (>=1.2.1,<2.0.0)"]
 vertexai = ["langchain-google-vertexai (>=1.0.6,<2.0.0)"]
 weaviate = ["weaviate-client (>=3.24.1,<4.0.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "executing"
 version = "2.0.1"
@@ -967,11 +807,6 @@ files = [
 
 [package.extras]
 tests = ["asttokens (>=2.1.0)", "coverage", "coverage-enable-subprocess", "ipython", "littleutils", "pytest", "rich"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "fastapi"
@@ -992,11 +827,6 @@ typing-extensions = ">=4.8.0"
 [package.extras]
 all = ["email_validator (>=2.0.0)", "fastapi-cli[standard] (>=0.0.5)", "httpx (>=0.23.0)", "itsdangerous (>=1.1.0)", "jinja2 (>=2.11.2)", "orjson (>=3.2.1)", "pydantic-extra-types (>=2.0.0)", "pydantic-settings (>=2.0.0)", "python-multipart (>=0.0.7)", "pyyaml (>=5.3.1)", "ujson (>=4.0.1,!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0)", "uvicorn[standard] (>=0.12.0)"]
 standard = ["email_validator (>=2.0.0)", "fastapi-cli[standard] (>=0.0.5)", "httpx (>=0.23.0)", "jinja2 (>=2.11.2)", "python-multipart (>=0.0.7)", "uvicorn[standard] (>=0.12.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "fastavro"
@@ -1044,11 +874,6 @@ lz4 = ["lz4"]
 snappy = ["cramjam"]
 zstandard = ["zstandard"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "filelock"
 version = "3.15.4"
@@ -1065,11 +890,6 @@ docs = ["furo (>=2023.9.10)", "sphinx (>=7.2.6)", "sphinx-autodoc-typehints (>=1
 testing = ["covdefaults (>=2.3)", "coverage (>=7.3.2)", "diff-cover (>=8.0.1)", "pytest (>=7.4.3)", "pytest-asyncio (>=0.21)", "pytest-cov (>=4.1)", "pytest-mock (>=3.12)", "pytest-timeout (>=2.2)", "virtualenv (>=20.26.2)"]
 typing = ["typing-extensions (>=4.8)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "flatbuffers"
 version = "24.3.25"
@@ -1080,11 +900,6 @@ files = [
     {file = "flatbuffers-24.3.25-py2.py3-none-any.whl", hash = "sha256:8dbdec58f935f3765e4f7f3cf635ac3a77f83568138d6a2311f524ec96364812"},
     {file = "flatbuffers-24.3.25.tar.gz", hash = "sha256:de2ec5b203f21441716617f38443e0a8ebf3d25bf0d9c0bb0ce68fa00ad546a4"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "frozendict"
@@ -1127,11 +942,6 @@ files = [
     {file = "frozendict-2.4.4-py312-none-any.whl", hash = "sha256:d9647563e76adb05b7cde2172403123380871360a114f546b4ae1704510801e5"},
     {file = "frozendict-2.4.4.tar.gz", hash = "sha256:3f7c031b26e4ee6a3f786ceb5e3abf1181c4ade92dce1f847da26ea2c96008c7"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "frozenlist"
@@ -1219,11 +1029,6 @@ files = [
     {file = "frozenlist-1.4.1.tar.gz", hash = "sha256:c037a86e8513059a2613aaba4d817bb90b9d9b6b69aace3ce9c877e8c8ed402b"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "fsspec"
 version = "2024.6.1"
@@ -1263,11 +1068,6 @@ test-downstream = ["aiobotocore (>=2.5.4,<3.0.0)", "dask-expr", "dask[dataframe,
 test-full = ["adlfs", "aiohttp (!=4.0.0a0,!=4.0.0a1)", "cloudpickle", "dask", "distributed", "dropbox", "dropboxdrivefs", "fastparquet", "fusepy", "gcsfs", "jinja2", "kerchunk", "libarchive-c", "lz4", "notebook", "numpy", "ocifs", "pandas", "panel", "paramiko", "pyarrow", "pyarrow (>=1)", "pyftpdlib", "pygit2", "pytest", "pytest-asyncio (!=0.22.0)", "pytest-benchmark", "pytest-cov", "pytest-mock", "pytest-recording", "pytest-rerunfailures", "python-snappy", "requests", "smbprotocol", "tqdm", "urllib3", "zarr", "zstandard"]
 tqdm = ["tqdm"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "google-api-core"
 version = "2.19.1"
@@ -1293,11 +1093,6 @@ grpc = ["grpcio (>=1.33.2,<2.0dev)", "grpcio (>=1.49.1,<2.0dev)", "grpcio-status
 grpcgcp = ["grpcio-gcp (>=0.2.2,<1.0.dev0)"]
 grpcio-gcp = ["grpcio-gcp (>=0.2.2,<1.0.dev0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "google-auth"
 version = "2.34.0"
@@ -1320,11 +1115,6 @@ enterprise-cert = ["cryptography", "pyopenssl"]
 pyopenssl = ["cryptography (>=38.0.3)", "pyopenssl (>=20.0.0)"]
 reauth = ["pyu2f (>=0.1.5)"]
 requests = ["requests (>=2.20.0,<3.0.0.dev0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "google-cloud-aiplatform"
@@ -1374,11 +1164,6 @@ tokenization = ["sentencepiece (>=0.2.0)"]
 vizier = ["google-vizier (>=0.1.6)"]
 xai = ["tensorflow (>=2.3.0,<3.0.0dev)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "google-cloud-bigquery"
 version = "3.25.0"
@@ -1410,11 +1195,6 @@ opentelemetry = ["opentelemetry-api (>=1.1.0)", "opentelemetry-instrumentation (
 pandas = ["db-dtypes (>=0.3.0,<2.0.0dev)", "importlib-metadata (>=1.0.0)", "pandas (>=1.1.0)", "pyarrow (>=3.0.0)"]
 tqdm = ["tqdm (>=4.7.4,<5.0.0dev)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "google-cloud-core"
 version = "2.4.1"
@@ -1433,11 +1213,6 @@ google-auth = ">=1.25.0,<3.0dev"
 [package.extras]
 grpc = ["grpcio (>=1.38.0,<2.0dev)", "grpcio-status (>=1.38.0,<2.0.dev0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "google-cloud-resource-manager"
 version = "1.12.5"
@@ -1455,11 +1230,6 @@ google-auth = ">=2.14.1,<2.24.0 || >2.24.0,<2.25.0 || >2.25.0,<3.0.0dev"
 grpc-google-iam-v1 = ">=0.12.4,<1.0.0dev"
 proto-plus = ">=1.22.3,<2.0.0dev"
 protobuf = ">=3.20.2,<4.21.0 || >4.21.0,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0dev"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "google-cloud-storage"
@@ -1483,11 +1253,6 @@ requests = ">=2.18.0,<3.0.0dev"
 [package.extras]
 protobuf = ["protobuf (<6.0.0dev)"]
 tracing = ["opentelemetry-api (>=1.1.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "google-crc32c"
@@ -1569,17 +1334,12 @@ files = [
 [package.extras]
 testing = ["pytest"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "google-resumable-media"
 version = "2.7.2"
 description = "Utilities for Google Media Downloads and Resumable Uploads"
 optional = false
-python-versions = ">= 3.7"
+python-versions = ">=3.7"
 files = [
     {file = "google_resumable_media-2.7.2-py2.py3-none-any.whl", hash = "sha256:3ce7551e9fe6d99e9a126101d2536612bb73486721951e9562fee0f90c6ababa"},
     {file = "google_resumable_media-2.7.2.tar.gz", hash = "sha256:5280aed4629f2b60b847b0d42f9857fd4935c11af266744df33d8074cae92fe0"},
@@ -1591,11 +1351,6 @@ google-crc32c = ">=1.0,<2.0dev"
 [package.extras]
 aiohttp = ["aiohttp (>=3.6.2,<4.0.0dev)", "google-auth (>=1.22.0,<2.0dev)"]
 requests = ["requests (>=2.18.0,<3.0.0dev)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "googleapis-common-protos"
@@ -1615,11 +1370,6 @@ protobuf = ">=3.20.2,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4
 [package.extras]
 grpc = ["grpcio (>=1.44.0,<2.0.0.dev0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "gptcache"
 version = "0.1.44"
@@ -1635,11 +1385,6 @@ files = [
 cachetools = "*"
 numpy = "*"
 requests = "*"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "greenlet"
@@ -1712,11 +1457,6 @@ files = [
 docs = ["Sphinx", "furo"]
 test = ["objgraph", "psutil"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "grpc-google-iam-v1"
 version = "0.13.1"
@@ -1732,11 +1472,6 @@ files = [
 googleapis-common-protos = {version = ">=1.56.0,<2.0.0dev", extras = ["grpc"]}
 grpcio = ">=1.44.0,<2.0.0dev"
 protobuf = ">=3.20.2,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0dev"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "grpcio"
@@ -1796,11 +1531,6 @@ files = [
 [package.extras]
 protobuf = ["grpcio-tools (>=1.65.5)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "grpcio-status"
 version = "1.62.3"
@@ -1816,11 +1546,6 @@ files = [
 googleapis-common-protos = ">=1.5.5"
 grpcio = ">=1.62.3"
 protobuf = ">=4.21.6"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "grpcio-tools"
@@ -1884,11 +1609,6 @@ grpcio = ">=1.62.3"
 protobuf = ">=4.21.6,<5.0dev"
 setuptools = "*"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "h11"
 version = "0.14.0"
@@ -1899,11 +1619,6 @@ files = [
     {file = "h11-0.14.0-py3-none-any.whl", hash = "sha256:e3fe4ac4b851c468cc8363d500db52c2ead036020723024a109d37346efaa761"},
     {file = "h11-0.14.0.tar.gz", hash = "sha256:8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "h2"
@@ -1920,11 +1635,6 @@ files = [
 hpack = ">=4.0,<5"
 hyperframe = ">=6.0,<7"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "hpack"
 version = "4.0.0"
@@ -1935,11 +1645,6 @@ files = [
     {file = "hpack-4.0.0-py3-none-any.whl", hash = "sha256:84a076fad3dc9a9f8063ccb8041ef100867b1878b25ef0ee63847a5d53818a6c"},
     {file = "hpack-4.0.0.tar.gz", hash = "sha256:fc41de0c63e687ebffde81187a948221294896f6bdc0ae2312708df339430095"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "html5lib"
@@ -1962,11 +1667,6 @@ chardet = ["chardet (>=2.2)"]
 genshi = ["genshi"]
 lxml = ["lxml"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "httpcore"
 version = "0.17.3"
@@ -1987,11 +1687,6 @@ sniffio = "==1.*"
 [package.extras]
 http2 = ["h2 (>=3,<5)"]
 socks = ["socksio (==1.*)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "httptools"
@@ -2041,11 +1736,6 @@ files = [
 [package.extras]
 test = ["Cython (>=0.29.24,<0.30.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "httpx"
 version = "0.24.1"
@@ -2070,11 +1760,6 @@ cli = ["click (==8.*)", "pygments (==2.*)", "rich (>=10,<14)"]
 http2 = ["h2 (>=3,<5)"]
 socks = ["socksio (==1.*)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "httpx-sse"
 version = "0.4.0"
@@ -2085,11 +1770,6 @@ files = [
     {file = "httpx-sse-0.4.0.tar.gz", hash = "sha256:1e81a3a3070ce322add1d3529ed42eb5f70817f45ed6ec915ab753f961139721"},
     {file = "httpx_sse-0.4.0-py3-none-any.whl", hash = "sha256:f329af6eae57eaa2bdfd962b42524764af68075ea87370a2de920af5341e318f"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "huggingface-hub"
@@ -2125,11 +1805,6 @@ testing = ["InquirerPy (==0.3.4)", "Jinja2", "Pillow", "aiohttp", "fastapi", "gr
 torch = ["safetensors[torch]", "torch"]
 typing = ["types-PyYAML", "types-requests", "types-simplejson", "types-toml", "types-tqdm", "types-urllib3", "typing-extensions (>=4.8.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "humanfriendly"
 version = "10.0"
@@ -2144,11 +1819,6 @@ files = [
 [package.dependencies]
 pyreadline3 = {version = "*", markers = "sys_platform == \"win32\" and python_version >= \"3.8\""}
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "hyperframe"
 version = "6.0.1"
@@ -2160,11 +1830,6 @@ files = [
     {file = "hyperframe-6.0.1.tar.gz", hash = "sha256:ae510046231dc8e9ecb1a6586f63d2347bf4c8905914aa84ba585ae85f28a914"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "idna"
 version = "3.7"
@@ -2175,11 +1840,6 @@ files = [
     {file = "idna-3.7-py3-none-any.whl", hash = "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"},
     {file = "idna-3.7.tar.gz", hash = "sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "importlib-metadata"
@@ -2200,11 +1860,6 @@ docs = ["furo", "jaraco.packaging (>=9.3)", "jaraco.tidelift (>=1.4)", "rst.link
 perf = ["ipython"]
 testing = ["flufl.flake8", "importlib-resources (>=1.3)", "packaging", "pyfakefs", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=2.2)", "pytest-mypy (>=0.9.1)", "pytest-perf (>=0.9.2)", "pytest-ruff"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "importlib-resources"
 version = "6.4.3"
@@ -2220,17 +1875,12 @@ files = [
 doc = ["furo", "jaraco.packaging (>=9.3)", "jaraco.tidelift (>=1.4)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-lint"]
 test = ["jaraco.test (>=5.4)", "pytest (>=6,!=8.1.*)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=2.2)", "pytest-mypy", "pytest-ruff (>=0.2.1)", "zipp (>=3.17)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "instructor"
 version = "1.3.3"
 description = "structured outputs for llm"
 optional = false
-python-versions = ">=3.9,<4.0"
+python-versions = "<4.0,>=3.9"
 files = [
     {file = "instructor-1.3.3-py3-none-any.whl", hash = "sha256:94b114b39a1181fa348d162e6e4ff5c4d985324736020c0233fed5d4db444dbd"},
     {file = "instructor-1.3.3.tar.gz", hash = "sha256:e27bf3c1187b0b2130ea38ecde7c2b4f571d6a5ce1397fb15c27490988b45441"},
@@ -2256,11 +1906,6 @@ litellm = ["litellm (>=1.35.31,<2.0.0)"]
 mistralai = ["mistralai (>=0.1.8,<0.2.0)"]
 test-docs = ["anthropic (>=0.27.0,<0.28.0)", "cohere (>=5.1.8,<6.0.0)", "diskcache (>=5.6.3,<6.0.0)", "fastapi (>=0.109.2,<0.110.0)", "groq (>=0.4.2,<0.5.0)", "litellm (>=1.35.31,<2.0.0)", "mistralai (>=0.1.8,<0.2.0)", "pandas (>=2.2.0,<3.0.0)", "pydantic_extra_types (>=2.6.0,<3.0.0)", "redis (>=5.0.1,<6.0.0)", "tabulate (>=0.9.0,<0.10.0)"]
 vertexai = ["google-cloud-aiplatform (>=1.52.0,<2.0.0)", "jsonref (>=1.1.0,<2.0.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "ipython"
@@ -2299,11 +1944,6 @@ qtconsole = ["qtconsole"]
 test = ["packaging", "pickleshare", "pytest", "pytest-asyncio (<0.22)", "testpath"]
 test-extra = ["curio", "ipython[test]", "matplotlib (!=3.2.0)", "nbformat", "numpy (>=1.23)", "pandas", "trio"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "jedi"
 version = "0.19.1"
@@ -2322,11 +1962,6 @@ parso = ">=0.8.3,<0.9.0"
 docs = ["Jinja2 (==2.11.3)", "MarkupSafe (==1.1.1)", "Pygments (==2.8.1)", "alabaster (==0.7.12)", "babel (==2.9.1)", "chardet (==4.0.0)", "commonmark (==0.8.1)", "docutils (==0.17.1)", "future (==0.18.2)", "idna (==2.10)", "imagesize (==1.2.0)", "mock (==1.0.1)", "packaging (==20.9)", "pyparsing (==2.4.7)", "pytz (==2021.1)", "readthedocs-sphinx-ext (==2.1.4)", "recommonmark (==0.5.0)", "requests (==2.25.1)", "six (==1.15.0)", "snowballstemmer (==2.1.0)", "sphinx (==1.8.5)", "sphinx-rtd-theme (==0.4.3)", "sphinxcontrib-serializinghtml (==1.1.4)", "sphinxcontrib-websupport (==1.2.4)", "urllib3 (==1.26.4)"]
 qa = ["flake8 (==5.0.4)", "mypy (==0.971)", "types-setuptools (==67.2.0.1)"]
 testing = ["Django", "attrs", "colorama", "docopt", "pytest (<7.0.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "jiter"
@@ -2398,11 +2033,6 @@ files = [
     {file = "jiter-0.4.2.tar.gz", hash = "sha256:29b9d44f23f0c05f46d482f4ebf03213ee290d77999525d0975a17f875bf1eea"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "jmespath"
 version = "1.0.1"
@@ -2414,11 +2044,6 @@ files = [
     {file = "jmespath-1.0.1.tar.gz", hash = "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "json-repair"
 version = "0.25.3"
@@ -2429,11 +2054,6 @@ files = [
     {file = "json_repair-0.25.3-py3-none-any.whl", hash = "sha256:f00b510dd21b31ebe72581bdb07e66381df2883d6f640c89605e482882c12b17"},
     {file = "json_repair-0.25.3.tar.gz", hash = "sha256:4ee970581a05b0b258b749eb8bcac21de380edda97c3717a4edfafc519ec21a4"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "jsonpatch"
@@ -2449,11 +2069,6 @@ files = [
 [package.dependencies]
 jsonpointer = ">=1.9"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "jsonpointer"
 version = "3.0.0"
@@ -2465,11 +2080,6 @@ files = [
     {file = "jsonpointer-3.0.0.tar.gz", hash = "sha256:2b2d729f2091522d61c3b31f82e11870f60b68f43fbc705cb76bf4b832af59ef"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "jsonref"
 version = "1.1.0"
@@ -2480,11 +2090,6 @@ files = [
     {file = "jsonref-1.1.0-py3-none-any.whl", hash = "sha256:590dc7773df6c21cbf948b5dac07a72a251db28b0238ceecce0a2abfa8ec30a9"},
     {file = "jsonref-1.1.0.tar.gz", hash = "sha256:32fe8e1d85af0fdefbebce950af85590b22b60f9e95443176adbde4e1ecea552"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "kubernetes"
@@ -2512,17 +2117,12 @@ websocket-client = ">=0.32.0,<0.40.0 || >0.40.0,<0.41.dev0 || >=0.43.dev0"
 [package.extras]
 adal = ["adal (>=1.0.2)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "langchain"
 version = "0.2.14"
 description = "Building applications with LLMs through composability"
 optional = false
-python-versions = ">=3.8.1,<4.0"
+python-versions = "<4.0,>=3.8.1"
 files = [
     {file = "langchain-0.2.14-py3-none-any.whl", hash = "sha256:eed76194ee7d9c081037a3df7868d4de90e0410b51fc1ca933a8379e464bf40c"},
     {file = "langchain-0.2.14.tar.gz", hash = "sha256:dc2aa5a58882054fb5d043c39ab8332ebd055f88f17839da68e1c7fd0a4fefe2"},
@@ -2540,17 +2140,12 @@ requests = ">=2,<3"
 SQLAlchemy = ">=1.4,<3"
 tenacity = ">=8.1.0,<8.4.0 || >8.4.0,<9.0.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "langchain-cohere"
 version = "0.1.9"
 description = "An integration package connecting Cohere and LangChain"
 optional = false
-python-versions = ">=3.8.1,<4.0"
+python-versions = "<4.0,>=3.8.1"
 files = [
     {file = "langchain_cohere-0.1.9-py3-none-any.whl", hash = "sha256:96d6a15125797319474ac84b54024e5024f3f5fc45032ebf228d95d6998c9b13"},
     {file = "langchain_cohere-0.1.9.tar.gz", hash = "sha256:549620d23bc3d77f62d1045787095fe2c1cfa233dba69455139f9a2f65f952fa"},
@@ -2566,17 +2161,12 @@ tabulate = ">=0.9.0,<0.10.0"
 [package.extras]
 langchain-community = ["langchain-community (>=0.2.4)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "langchain-community"
 version = "0.2.12"
 description = "Community contributed LangChain integrations."
 optional = false
-python-versions = ">=3.8.1,<4.0"
+python-versions = "<4.0,>=3.8.1"
 files = [
     {file = "langchain_community-0.2.12-py3-none-any.whl", hash = "sha256:50e74473dd2309bdef561760afbbf0c5ea17ed91fc4dfa0d52279dd16d6d34e0"},
     {file = "langchain_community-0.2.12.tar.gz", hash = "sha256:d671cfc6a4f3b65f49a2e59ab420d0164f109d0a56fc4b4996518205c63b8c7e"},
@@ -2594,17 +2184,12 @@ requests = ">=2,<3"
 SQLAlchemy = ">=1.4,<3"
 tenacity = ">=8.1.0,<8.4.0 || >8.4.0,<9.0.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "langchain-core"
 version = "0.2.33"
 description = "Building applications with LLMs through composability"
 optional = false
-python-versions = ">=3.8.1,<4.0"
+python-versions = "<4.0,>=3.8.1"
 files = [
     {file = "langchain_core-0.2.33-py3-none-any.whl", hash = "sha256:c8de411336c13fa440b7a52895bfd1c064f04d315344855962988483902cc532"},
     {file = "langchain_core-0.2.33.tar.gz", hash = "sha256:dd2659e0a560fc987b210107bf989aa14a6f4b67dd214c13a2c9669036cda975"},
@@ -2619,17 +2204,12 @@ PyYAML = ">=5.3"
 tenacity = ">=8.1.0,<8.4.0 || >8.4.0,<9.0.0"
 typing-extensions = ">=4.7"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "langchain-experimental"
 version = "0.0.64"
 description = "Building applications with LLMs through composability"
 optional = false
-python-versions = ">=3.8.1,<4.0"
+python-versions = "<4.0,>=3.8.1"
 files = [
     {file = "langchain_experimental-0.0.64-py3-none-any.whl", hash = "sha256:c1a06a1198f05e17e4ce97832004ba4716f7920d0d68ff57f29158e93b198360"},
     {file = "langchain_experimental-0.0.64.tar.gz", hash = "sha256:453f77f2126e058052900a62406e1fb58721a37763f5865327e466ddcf4d6779"},
@@ -2639,17 +2219,12 @@ files = [
 langchain-community = ">=0.2.10,<0.3.0"
 langchain-core = ">=0.2.27,<0.3.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "langchain-openai"
 version = "0.1.22"
 description = "An integration package connecting OpenAI and LangChain"
 optional = false
-python-versions = ">=3.8.1,<4.0"
+python-versions = "<4.0,>=3.8.1"
 files = [
     {file = "langchain_openai-0.1.22-py3-none-any.whl", hash = "sha256:e184ab867a30f803dc210a388537186b1b670a33d910a7e0fa4e0329d3b6c654"},
     {file = "langchain_openai-0.1.22.tar.gz", hash = "sha256:0cf93133f230a893e3b0cc2a792bbf2580950e879b577f6e8d4ff9963a7de44b"},
@@ -2660,17 +2235,12 @@ langchain-core = ">=0.2.33,<0.3.0"
 openai = ">=1.40.0,<2.0.0"
 tiktoken = ">=0.7,<1"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "langchain-text-splitters"
 version = "0.2.2"
 description = "LangChain text splitting utilities"
 optional = false
-python-versions = ">=3.8.1,<4.0"
+python-versions = "<4.0,>=3.8.1"
 files = [
     {file = "langchain_text_splitters-0.2.2-py3-none-any.whl", hash = "sha256:1c80d4b11b55e2995f02d2a326c0323ee1eeff24507329bb22924e420c782dff"},
     {file = "langchain_text_splitters-0.2.2.tar.gz", hash = "sha256:a1e45de10919fa6fb080ef0525deab56557e9552083600455cb9fa4238076140"},
@@ -2679,17 +2249,12 @@ files = [
 [package.dependencies]
 langchain-core = ">=0.2.10,<0.3.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "langsmith"
 version = "0.1.99"
 description = "Client library to connect to the LangSmith LLM Tracing and Evaluation Platform."
 optional = false
-python-versions = ">=3.8.1,<4.0"
+python-versions = "<4.0,>=3.8.1"
 files = [
     {file = "langsmith-0.1.99-py3-none-any.whl", hash = "sha256:ef8d1d74a2674c514aa429b0171a9fbb661207dc3835142cca0e8f1bf97b26b0"},
     {file = "langsmith-0.1.99.tar.gz", hash = "sha256:b5c6a1f158abda61600a4a445081ee848b4a28b758d91f2793dc02aeffafcaf1"},
@@ -2699,11 +2264,6 @@ files = [
 orjson = ">=3.9.14,<4.0.0"
 pydantic = {version = ">=1,<3", markers = "python_full_version < \"3.12.4\""}
 requests = ">=2,<3"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "lxml"
@@ -2859,11 +2419,6 @@ html5 = ["html5lib"]
 htmlsoup = ["BeautifulSoup4"]
 source = ["Cython (>=3.0.11)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "mako"
 version = "1.3.5"
@@ -2882,11 +2437,6 @@ MarkupSafe = ">=0.9.2"
 babel = ["Babel"]
 lingua = ["lingua"]
 testing = ["pytest"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "markdown-it-py"
@@ -2911,11 +2461,6 @@ plugins = ["mdit-py-plugins"]
 profiling = ["gprof2dot"]
 rtd = ["jupyter_sphinx", "mdit-py-plugins", "myst-parser", "pyyaml", "sphinx", "sphinx-copybutton", "sphinx-design", "sphinx_book_theme"]
 testing = ["coverage", "pytest", "pytest-cov", "pytest-regressions"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "markupsafe"
@@ -2986,11 +2531,6 @@ files = [
     {file = "MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "marshmallow"
 version = "3.22.0"
@@ -3010,11 +2550,6 @@ dev = ["marshmallow[tests]", "pre-commit (>=3.5,<4.0)", "tox"]
 docs = ["alabaster (==1.0.0)", "autodocsumm (==0.2.13)", "sphinx (==8.0.2)", "sphinx-issues (==4.1.0)", "sphinx-version-warning (==1.1.2)"]
 tests = ["pytest", "pytz", "simplejson"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "matplotlib-inline"
 version = "0.1.7"
@@ -3029,11 +2564,6 @@ files = [
 [package.dependencies]
 traitlets = "*"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "mdurl"
 version = "0.1.2"
@@ -3045,17 +2575,12 @@ files = [
     {file = "mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "mem0ai"
 version = "0.0.20"
 description = "Long-term memory for AI Agents"
 optional = false
-python-versions = ">=3.8,<4.0"
+python-versions = "<4.0,>=3.8"
 files = [
     {file = "mem0ai-0.0.20-py3-none-any.whl", hash = "sha256:c19b2082173c818f3516279f0924bfd763e2d18175560332c94e415e5131fd3b"},
     {file = "mem0ai-0.0.20.tar.gz", hash = "sha256:459b96850156c8e51e321e3ab4e5f86fb00d75532c16ad41a3eb09578e0ce00a"},
@@ -3068,11 +2593,6 @@ pydantic = ">=2.7.3,<3.0.0"
 pytz = ">=2024.1,<2025.0"
 qdrant-client = ">=1.9.1,<2.0.0"
 sqlalchemy = ">=2.0.31,<3.0.0"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "mmh3"
@@ -3166,11 +2686,6 @@ files = [
 [package.extras]
 test = ["mypy (>=1.0)", "pytest (>=7.0.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "monotonic"
 version = "1.6"
@@ -3181,11 +2696,6 @@ files = [
     {file = "monotonic-1.6-py2.py3-none-any.whl", hash = "sha256:68687e19a14f11f26d140dd5c86f3dba4bf5df58003000ed467e0e2a69bca96c"},
     {file = "monotonic-1.6.tar.gz", hash = "sha256:3a55207bcfed53ddd5c5bae174524062935efed17792e9de2ad0205ce9ad63f7"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "mpmath"
@@ -3203,11 +2713,6 @@ develop = ["codecov", "pycodestyle", "pytest (>=4.6)", "pytest-cov", "wheel"]
 docs = ["sphinx"]
 gmpy = ["gmpy2 (>=2.1.0a4)"]
 tests = ["pytest (>=4.6)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "multidict"
@@ -3308,11 +2813,6 @@ files = [
     {file = "multidict-6.0.5.tar.gz", hash = "sha256:f7e301075edaf50500f0b341543c41194d8df3ae5caf4702f2095f3ca73dd8da"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "multitasking"
 version = "0.0.11"
@@ -3324,11 +2824,6 @@ files = [
     {file = "multitasking-0.0.11.tar.gz", hash = "sha256:4d6bc3cc65f9b2dca72fb5a787850a88dae8f620c2b36ae9b55248e51bcd6026"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "mypy-extensions"
 version = "1.0.0"
@@ -3339,11 +2834,6 @@ files = [
     {file = "mypy_extensions-1.0.0-py3-none-any.whl", hash = "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d"},
     {file = "mypy_extensions-1.0.0.tar.gz", hash = "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "numpy"
@@ -3390,11 +2880,6 @@ files = [
     {file = "numpy-1.26.4.tar.gz", hash = "sha256:2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "oauthlib"
 version = "3.2.2"
@@ -3410,11 +2895,6 @@ files = [
 rsa = ["cryptography (>=3.0.0)"]
 signals = ["blinker (>=1.4.0)"]
 signedtoken = ["cryptography (>=3.0.0)", "pyjwt (>=2.0.0,<3)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "onnxruntime"
@@ -3458,11 +2938,6 @@ packaging = "*"
 protobuf = "*"
 sympy = "*"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "openai"
 version = "1.41.1"
@@ -3487,11 +2962,6 @@ typing-extensions = ">=4.11,<5"
 [package.extras]
 datalib = ["numpy (>=1)", "pandas (>=1.2.3)", "pandas-stubs (>=1.1.0.11)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "opentelemetry-api"
 version = "1.24.0"
@@ -3507,11 +2977,6 @@ files = [
 deprecated = ">=1.2.6"
 importlib-metadata = ">=6.0,<=7.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "opentelemetry-exporter-otlp-proto-common"
 version = "1.24.0"
@@ -3525,11 +2990,6 @@ files = [
 
 [package.dependencies]
 opentelemetry-proto = "1.24.0"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "opentelemetry-exporter-otlp-proto-grpc"
@@ -3554,11 +3014,6 @@ opentelemetry-sdk = ">=1.24.0,<1.25.0"
 [package.extras]
 test = ["pytest-grpc"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "opentelemetry-exporter-otlp-proto-http"
 version = "1.24.0"
@@ -3579,11 +3034,6 @@ opentelemetry-proto = "1.24.0"
 opentelemetry-sdk = ">=1.24.0,<1.25.0"
 requests = ">=2.7,<3.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "opentelemetry-instrumentation"
 version = "0.45b0"
@@ -3599,11 +3049,6 @@ files = [
 opentelemetry-api = ">=1.4,<2.0"
 setuptools = ">=16.0"
 wrapt = ">=1.0.0,<2.0.0"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "opentelemetry-instrumentation-asgi"
@@ -3626,11 +3071,6 @@ opentelemetry-util-http = "0.45b0"
 [package.extras]
 instruments = ["asgiref (>=3.0,<4.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "opentelemetry-instrumentation-fastapi"
 version = "0.45b0"
@@ -3652,11 +3092,6 @@ opentelemetry-util-http = "0.45b0"
 [package.extras]
 instruments = ["fastapi (>=0.58,<1.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "opentelemetry-proto"
 version = "1.24.0"
@@ -3670,11 +3105,6 @@ files = [
 
 [package.dependencies]
 protobuf = ">=3.19,<5.0"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "opentelemetry-sdk"
@@ -3692,11 +3122,6 @@ opentelemetry-api = "1.24.0"
 opentelemetry-semantic-conventions = "0.45b0"
 typing-extensions = ">=3.7.4"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "opentelemetry-semantic-conventions"
 version = "0.45b0"
@@ -3708,11 +3133,6 @@ files = [
     {file = "opentelemetry_semantic_conventions-0.45b0.tar.gz", hash = "sha256:7c84215a44ac846bc4b8e32d5e78935c5c43482e491812a0bb8aaf87e4d92118"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "opentelemetry-util-http"
 version = "0.45b0"
@@ -3723,11 +3143,6 @@ files = [
     {file = "opentelemetry_util_http-0.45b0-py3-none-any.whl", hash = "sha256:6628868b501b3004e1860f976f410eeb3d3499e009719d818000f24ce17b6e33"},
     {file = "opentelemetry_util_http-0.45b0.tar.gz", hash = "sha256:4ce08b6a7d52dd7c96b7705b5b4f06fdb6aa3eac1233b3b0bfef8a0cab9a92cd"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "orjson"
@@ -3795,11 +3210,6 @@ files = [
     {file = "orjson-3.10.7.tar.gz", hash = "sha256:75ef0640403f945f3a1f9f6400686560dbfb0fb5b16589ad62cd477043c4eee3"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "overrides"
 version = "7.7.0"
@@ -3811,11 +3221,6 @@ files = [
     {file = "overrides-7.7.0.tar.gz", hash = "sha256:55158fa3d93b98cc75299b1e67078ad9003ca27945c76162c1c0766d6f91820a"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "packaging"
 version = "24.1"
@@ -3826,11 +3231,6 @@ files = [
     {file = "packaging-24.1-py3-none-any.whl", hash = "sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"},
     {file = "packaging-24.1.tar.gz", hash = "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pandas"
@@ -3901,11 +3301,6 @@ sql-other = ["SQLAlchemy (>=2.0.0)", "adbc-driver-postgresql (>=0.8.0)", "adbc-d
 test = ["hypothesis (>=6.46.1)", "pytest (>=7.3.2)", "pytest-xdist (>=2.2.0)"]
 xml = ["lxml (>=4.9.2)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "parameterized"
 version = "0.9.0"
@@ -3919,11 +3314,6 @@ files = [
 
 [package.extras]
 dev = ["jinja2"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "parso"
@@ -3940,11 +3330,6 @@ files = [
 qa = ["flake8 (==5.0.4)", "mypy (==0.971)", "types-setuptools (==67.2.0.1)"]
 testing = ["docopt", "pytest"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "peewee"
 version = "3.17.6"
@@ -3954,11 +3339,6 @@ python-versions = "*"
 files = [
     {file = "peewee-3.17.6.tar.gz", hash = "sha256:cea5592c6f4da1592b7cff8eaf655be6648a1f5857469e30037bf920c03fb8fb"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pexpect"
@@ -3973,11 +3353,6 @@ files = [
 
 [package.dependencies]
 ptyprocess = ">=0.5"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "platformdirs"
@@ -3994,11 +3369,6 @@ files = [
 docs = ["furo (>=2023.9.10)", "proselint (>=0.13)", "sphinx (>=7.2.6)", "sphinx-autodoc-typehints (>=1.25.2)"]
 test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.4.3)", "pytest-cov (>=4.1)", "pytest-mock (>=3.12)"]
 type = ["mypy (>=1.8)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "portalocker"
@@ -4018,11 +3388,6 @@ pywin32 = {version = ">=226", markers = "platform_system == \"Windows\""}
 docs = ["sphinx (>=1.7.1)"]
 redis = ["redis"]
 tests = ["pytest (>=5.4.1)", "pytest-cov (>=2.8.1)", "pytest-mypy (>=0.8.0)", "pytest-timeout (>=2.1.0)", "redis", "sphinx (>=6.0.0)", "types-redis"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "posthog"
@@ -4047,11 +3412,6 @@ dev = ["black", "flake8", "flake8-print", "isort", "pre-commit"]
 sentry = ["django", "sentry-sdk"]
 test = ["coverage", "flake8", "freezegun (==0.3.15)", "mock (>=2.0.0)", "pylint", "pytest", "pytest-timeout"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "prompt-toolkit"
 version = "3.0.47"
@@ -4065,11 +3425,6 @@ files = [
 
 [package.dependencies]
 wcwidth = "*"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "proto-plus"
@@ -4087,11 +3442,6 @@ protobuf = ">=3.19.0,<6.0.0dev"
 
 [package.extras]
 testing = ["google-api-core (>=1.31.5)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "protobuf"
@@ -4113,11 +3463,6 @@ files = [
     {file = "protobuf-4.25.4.tar.gz", hash = "sha256:0dc4a62cc4052a036ee2204d26fe4d835c62827c855c8a03f29fe6da146b380d"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "ptyprocess"
 version = "0.7.0"
@@ -4128,11 +3473,6 @@ files = [
     {file = "ptyprocess-0.7.0-py2.py3-none-any.whl", hash = "sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35"},
     {file = "ptyprocess-0.7.0.tar.gz", hash = "sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pulsar-client"
@@ -4181,11 +3521,6 @@ all = ["apache-bookkeeper-client (>=4.16.1)", "fastavro (>=1.9.2)", "grpcio (>=1
 avro = ["fastavro (>=1.9.2)"]
 functions = ["apache-bookkeeper-client (>=4.16.1)", "grpcio (>=1.60.0)", "prometheus-client", "protobuf (>=3.6.1,<=3.20.3)", "ratelimit"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "pure-eval"
 version = "0.2.3"
@@ -4200,11 +3535,6 @@ files = [
 [package.extras]
 tests = ["pytest"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "pyasn1"
 version = "0.6.0"
@@ -4215,11 +3545,6 @@ files = [
     {file = "pyasn1-0.6.0-py2.py3-none-any.whl", hash = "sha256:cca4bb0f2df5504f02f6f8a775b6e416ff9b0b3b16f7ee80b5a3153d9b804473"},
     {file = "pyasn1-0.6.0.tar.gz", hash = "sha256:3a35ab2c4b5ef98e17dfdec8ab074046fbda76e281c5a706ccd82328cfc8f64c"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pyasn1-modules"
@@ -4234,11 +3559,6 @@ files = [
 
 [package.dependencies]
 pyasn1 = ">=0.4.6,<0.7.0"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pydantic"
@@ -4258,11 +3578,6 @@ typing-extensions = {version = ">=4.6.1", markers = "python_version < \"3.13\""}
 
 [package.extras]
 email = ["email-validator (>=2.0.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pydantic-core"
@@ -4365,11 +3680,6 @@ files = [
 [package.dependencies]
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "pygments"
 version = "2.18.0"
@@ -4383,11 +3693,6 @@ files = [
 
 [package.extras]
 windows-terminal = ["colorama (>=0.4.6)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pypdf"
@@ -4407,11 +3712,6 @@ docs = ["myst_parser", "sphinx", "sphinx_rtd_theme"]
 full = ["Pillow (>=8.0.0)", "PyCryptodome", "cryptography"]
 image = ["Pillow (>=8.0.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "pypika"
 version = "0.48.9"
@@ -4421,11 +3721,6 @@ python-versions = "*"
 files = [
     {file = "PyPika-0.48.9.tar.gz", hash = "sha256:838836a61747e7c8380cd1b7ff638694b7a7335345d0f559b04b2cd832ad5378"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pyproject-hooks"
@@ -4438,11 +3733,6 @@ files = [
     {file = "pyproject_hooks-1.1.0.tar.gz", hash = "sha256:4b37730834edbd6bd37f26ece6b44802fb1c1ee2ece0e54ddff8bfc06db86965"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "pyreadline3"
 version = "3.4.1"
@@ -4454,11 +3744,6 @@ files = [
     {file = "pyreadline3-3.4.1.tar.gz", hash = "sha256:6f3d1f7b8a31ba32b73917cefc1f28cc660562f39aea8646d30bd6eff21f7bae"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "pysbd"
 version = "0.3.4"
@@ -4468,11 +3753,6 @@ python-versions = ">=3"
 files = [
     {file = "pysbd-0.3.4-py3-none-any.whl", hash = "sha256:cd838939b7b0b185fcf86b0baf6636667dfb6e474743beeff878e9f42e022953"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "python-dateutil"
@@ -4488,11 +3768,6 @@ files = [
 [package.dependencies]
 six = ">=1.5"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "python-dotenv"
 version = "1.0.1"
@@ -4507,11 +3782,6 @@ files = [
 [package.extras]
 cli = ["click (>=5.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "pytz"
 version = "2024.1"
@@ -4522,11 +3792,6 @@ files = [
     {file = "pytz-2024.1-py2.py3-none-any.whl", hash = "sha256:328171f4e3623139da4983451950b28e95ac706e13f3f2630a879749e7a8b319"},
     {file = "pytz-2024.1.tar.gz", hash = "sha256:2a29735ea9c18baf14b448846bde5a48030ed267578472d8955cd0e7443a9812"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pywin32"
@@ -4550,11 +3815,6 @@ files = [
     {file = "pywin32-306-cp39-cp39-win32.whl", hash = "sha256:e25fd5b485b55ac9c057f67d94bc203f3f6595078d1fb3b458c9c28b7153a802"},
     {file = "pywin32-306-cp39-cp39-win_amd64.whl", hash = "sha256:39b61c15272833b5c329a2989999dcae836b1eed650252ab1b7bfbe1d59f30f4"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "pyyaml"
@@ -4618,11 +3878,6 @@ files = [
     {file = "pyyaml-6.0.2.tar.gz", hash = "sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "qdrant-client"
 version = "1.11.0"
@@ -4646,11 +3901,6 @@ urllib3 = ">=1.26.14,<3"
 [package.extras]
 fastembed = ["fastembed (==0.3.4)"]
 fastembed-gpu = ["fastembed-gpu (==0.3.4)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "regex"
@@ -4754,11 +4004,6 @@ files = [
     {file = "regex-2023.12.25.tar.gz", hash = "sha256:29171aa128da69afdf4bde412d5bedc335f2ca8fcfe4489038577d05f16181e5"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "requests"
 version = "2.32.3"
@@ -4780,11 +4025,6 @@ urllib3 = ">=1.21.1,<3"
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "requests-oauthlib"
 version = "2.0.0"
@@ -4802,11 +4042,6 @@ requests = ">=2.0.0"
 
 [package.extras]
 rsa = ["oauthlib[signedtoken] (>=3.0.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "rich"
@@ -4826,11 +4061,6 @@ pygments = ">=2.13.0,<3.0.0"
 [package.extras]
 jupyter = ["ipywidgets (>=7.5.1,<9)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "rsa"
 version = "4.9"
@@ -4845,17 +4075,12 @@ files = [
 [package.dependencies]
 pyasn1 = ">=0.1.3"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "s3transfer"
 version = "0.10.2"
 description = "An Amazon S3 Transfer Manager"
 optional = false
-python-versions = ">= 3.8"
+python-versions = ">=3.8"
 files = [
     {file = "s3transfer-0.10.2-py3-none-any.whl", hash = "sha256:eca1c20de70a39daee580aef4986996620f365c4e0fda6a86100231d62f1bf69"},
     {file = "s3transfer-0.10.2.tar.gz", hash = "sha256:0711534e9356d3cc692fdde846b4a1e4b0cb6519971860796e6bc4c7aea00ef6"},
@@ -4867,11 +4092,6 @@ botocore = ">=1.33.2,<2.0a.0"
 [package.extras]
 crt = ["botocore[crt] (>=1.33.2,<2.0a.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "schema"
 version = "0.7.7"
@@ -4882,11 +4102,6 @@ files = [
     {file = "schema-0.7.7-py2.py3-none-any.whl", hash = "sha256:5d976a5b50f36e74e2157b47097b60002bd4d42e65425fcc9c9befadb4255dde"},
     {file = "schema-0.7.7.tar.gz", hash = "sha256:7da553abd2958a19dc2547c388cde53398b39196175a9be59ea1caf5ab0a1807"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "setuptools"
@@ -4903,11 +4118,6 @@ files = [
 core = ["importlib-metadata (>=6)", "importlib-resources (>=5.10.2)", "jaraco.text (>=3.7)", "more-itertools (>=8.8)", "packaging (>=24)", "platformdirs (>=2.6.2)", "tomli (>=2.0.1)", "wheel (>=0.43.0)"]
 doc = ["furo", "jaraco.packaging (>=9.3)", "jaraco.tidelift (>=1.4)", "pygments-github-lexers (==0.0.5)", "pyproject-hooks (!=1.1)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-favicon", "sphinx-inline-tabs", "sphinx-lint", "sphinx-notfound-page (>=1,<2)", "sphinx-reredirects", "sphinxcontrib-towncrier", "towncrier (<24.7)"]
 test = ["build[virtualenv] (>=1.0.3)", "filelock (>=3.4.0)", "importlib-metadata", "ini2toml[lite] (>=0.14)", "jaraco.develop (>=7.21)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "jaraco.test", "mypy (==1.11.*)", "packaging (>=23.2)", "pip (>=19.1)", "pyproject-hooks (!=1.1)", "pytest (>=6,!=8.1.*)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=2.2)", "pytest-home (>=0.5)", "pytest-mypy", "pytest-perf", "pytest-ruff (<0.4)", "pytest-ruff (>=0.2.1)", "pytest-ruff (>=0.3.2)", "pytest-subprocess", "pytest-timeout", "pytest-xdist (>=3)", "tomli", "tomli-w (>=1.0.0)", "virtualenv (>=13.0.0)", "wheel (>=0.44.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "shapely"
@@ -4967,11 +4177,6 @@ numpy = ">=1.14,<3"
 docs = ["matplotlib", "numpydoc (==1.1.*)", "sphinx", "sphinx-book-theme", "sphinx-remove-toctrees"]
 test = ["pytest", "pytest-cov"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "shellingham"
 version = "1.5.4"
@@ -4982,11 +4187,6 @@ files = [
     {file = "shellingham-1.5.4-py2.py3-none-any.whl", hash = "sha256:7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686"},
     {file = "shellingham-1.5.4.tar.gz", hash = "sha256:8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "six"
@@ -4999,11 +4199,6 @@ files = [
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "sniffio"
 version = "1.3.1"
@@ -5015,11 +4210,6 @@ files = [
     {file = "sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "soupsieve"
 version = "2.6"
@@ -5030,11 +4220,6 @@ files = [
     {file = "soupsieve-2.6-py3-none-any.whl", hash = "sha256:e72c4ff06e4fb6e4b5a9f0f55fe6e81514581fca1515028625d0f299c602ccc9"},
     {file = "soupsieve-2.6.tar.gz", hash = "sha256:e2e68417777af359ec65daac1057404a3c8a5455bb8abc36f1a9866ab1a51abb"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "sqlalchemy"
@@ -5101,7 +4286,7 @@ typing-extensions = ">=4.6.0"
 [package.extras]
 aiomysql = ["aiomysql (>=0.2.0)", "greenlet (!=0.4.17)"]
 aioodbc = ["aioodbc", "greenlet (!=0.4.17)"]
-aiosqlite = ["aiosqlite", "greenlet (!=0.4.17)", "typing-extensions (!=3.10.0.1)"]
+aiosqlite = ["aiosqlite", "greenlet (!=0.4.17)", "typing_extensions (!=3.10.0.1)"]
 asyncio = ["greenlet (!=0.4.17)"]
 asyncmy = ["asyncmy (>=0.2.3,!=0.2.4,!=0.2.6)", "greenlet (!=0.4.17)"]
 mariadb-connector = ["mariadb (>=1.0.1,!=1.1.2,!=1.1.5)"]
@@ -5111,7 +4296,7 @@ mssql-pyodbc = ["pyodbc"]
 mypy = ["mypy (>=0.910)"]
 mysql = ["mysqlclient (>=1.4.0)"]
 mysql-connector = ["mysql-connector-python"]
-oracle = ["cx-oracle (>=8)"]
+oracle = ["cx_oracle (>=8)"]
 oracle-oracledb = ["oracledb (>=1.0.1)"]
 postgresql = ["psycopg2 (>=2.7)"]
 postgresql-asyncpg = ["asyncpg", "greenlet (!=0.4.17)"]
@@ -5121,12 +4306,7 @@ postgresql-psycopg2binary = ["psycopg2-binary"]
 postgresql-psycopg2cffi = ["psycopg2cffi"]
 postgresql-psycopgbinary = ["psycopg[binary] (>=3.0.7)"]
 pymysql = ["pymysql"]
-sqlcipher = ["sqlcipher3-binary"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
+sqlcipher = ["sqlcipher3_binary"]
 
 [[package]]
 name = "stack-data"
@@ -5147,11 +4327,6 @@ pure-eval = "*"
 [package.extras]
 tests = ["cython", "littleutils", "pygments", "pytest", "typeguard"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "starlette"
 version = "0.38.2"
@@ -5168,11 +4343,6 @@ anyio = ">=3.4.0,<5"
 
 [package.extras]
 full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart (>=0.0.7)", "pyyaml"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "sympy"
@@ -5191,11 +4361,6 @@ mpmath = ">=1.1.0,<1.4"
 [package.extras]
 dev = ["hypothesis (>=6.70.0)", "pytest (>=7.1.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "tabulate"
 version = "0.9.0"
@@ -5209,11 +4374,6 @@ files = [
 
 [package.extras]
 widechars = ["wcwidth"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "tenacity"
@@ -5229,11 +4389,6 @@ files = [
 [package.extras]
 doc = ["reno", "sphinx"]
 test = ["pytest", "tornado (>=4.5)", "typeguard"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "tiktoken"
@@ -5286,11 +4441,6 @@ requests = ">=2.26.0"
 
 [package.extras]
 blobfile = ["blobfile (>=2)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "tokenizers"
@@ -5409,11 +4559,6 @@ dev = ["tokenizers[testing]"]
 docs = ["setuptools-rust", "sphinx", "sphinx-rtd-theme"]
 testing = ["black (==22.3)", "datasets", "numpy", "pytest", "requests", "ruff"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "tqdm"
 version = "4.66.5"
@@ -5434,11 +4579,6 @@ notebook = ["ipywidgets (>=6)"]
 slack = ["slack-sdk"]
 telegram = ["requests"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "traitlets"
 version = "5.14.3"
@@ -5453,11 +4593,6 @@ files = [
 [package.extras]
 docs = ["myst-parser", "pydata-sphinx-theme", "sphinx"]
 test = ["argcomplete (>=3.0.3)", "mypy (>=1.7.0)", "pre-commit", "pytest (>=7.0,<8.2)", "pytest-mock", "pytest-mypy-testing"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "typer"
@@ -5476,11 +4611,6 @@ rich = ">=10.11.0"
 shellingham = ">=1.3.0"
 typing-extensions = ">=3.7.4.3"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "types-requests"
 version = "2.31.0.6"
@@ -5495,11 +4625,6 @@ files = [
 [package.dependencies]
 types-urllib3 = "*"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "types-urllib3"
 version = "1.26.25.14"
@@ -5511,11 +4636,6 @@ files = [
     {file = "types_urllib3-1.26.25.14-py3-none-any.whl", hash = "sha256:9683bbb7fb72e32bfe9d2be6e04875fbe1b3eeec3cbb4ea231435aa7fd6b4f0e"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "typing-extensions"
 version = "4.12.2"
@@ -5526,11 +4646,6 @@ files = [
     {file = "typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"},
     {file = "typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "typing-inspect"
@@ -5547,11 +4662,6 @@ files = [
 mypy-extensions = ">=0.3.0"
 typing-extensions = ">=3.7.4"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "tzdata"
 version = "2024.1"
@@ -5563,17 +4673,12 @@ files = [
     {file = "tzdata-2024.1.tar.gz", hash = "sha256:2674120f8d891909751c38abcdfd386ac0a5a1127954fbc332af6b5ceae07efd"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "urllib3"
 version = "1.26.19"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,>=2.7"
 files = [
     {file = "urllib3-1.26.19-py2.py3-none-any.whl", hash = "sha256:37a0344459b199fce0e80b0d3569837ec6b6937435c5244e7fd73fa6006830f3"},
     {file = "urllib3-1.26.19.tar.gz", hash = "sha256:3e3d753a8618b86d7de333b4223005f68720bcd6a7d2bcb9fbd2229ec7c1e429"},
@@ -5583,11 +4688,6 @@ files = [
 brotli = ["brotli (==1.0.9)", "brotli (>=1.0.9)", "brotlicffi (>=0.8.0)", "brotlipy (>=0.6.0)"]
 secure = ["certifi", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "ipaddress", "pyOpenSSL (>=0.14)", "urllib3-secure-extra"]
 socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "uvicorn"
@@ -5613,11 +4713,6 @@ websockets = {version = ">=10.4", optional = true, markers = "extra == \"standar
 
 [package.extras]
 standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)", "pyyaml (>=5.1)", "uvloop (>=0.14.0,!=0.15.0,!=0.15.1)", "watchfiles (>=0.13)", "websockets (>=10.4)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "uvloop"
@@ -5662,11 +4757,6 @@ files = [
 [package.extras]
 docs = ["Sphinx (>=4.1.2,<4.2.0)", "sphinx-rtd-theme (>=0.5.2,<0.6.0)", "sphinxcontrib-asyncio (>=0.3.0,<0.4.0)"]
 test = ["Cython (>=0.29.36,<0.30.0)", "aiohttp (==3.9.0b0)", "aiohttp (>=3.8.1)", "flake8 (>=5.0,<6.0)", "mypy (>=0.800)", "psutil", "pyOpenSSL (>=23.0.0,<23.1.0)", "pycodestyle (>=2.9.0,<2.10.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "watchfiles"
@@ -5767,11 +4857,6 @@ files = [
 [package.dependencies]
 anyio = ">=3.0.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "wcwidth"
 version = "0.2.13"
@@ -5783,11 +4868,6 @@ files = [
     {file = "wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "webencodings"
 version = "0.5.1"
@@ -5798,11 +4878,6 @@ files = [
     {file = "webencodings-0.5.1-py2.py3-none-any.whl", hash = "sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78"},
     {file = "webencodings-0.5.1.tar.gz", hash = "sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "websocket-client"
@@ -5819,11 +4894,6 @@ files = [
 docs = ["Sphinx (>=6.0)", "myst-parser (>=2.0.0)", "sphinx-rtd-theme (>=1.1.0)"]
 optional = ["python-socks", "wsaccel"]
 test = ["websockets"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "websockets"
@@ -5920,11 +4990,6 @@ files = [
     {file = "websockets-13.0.tar.gz", hash = "sha256:b7bf950234a482b7461afdb2ec99eee3548ec4d53f418c7990bb79c620476602"},
 ]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "wrapt"
 version = "1.16.0"
@@ -6003,11 +5068,6 @@ files = [
     {file = "wrapt-1.16.0-py3-none-any.whl", hash = "sha256:6906c4100a8fcbf2fa735f6059214bb13b97f75b1a61777fcf6432121ef12ef1"},
     {file = "wrapt-1.16.0.tar.gz", hash = "sha256:5f370f952971e7d17c7d1ead40e49f32345a7f7a5373571ef44d800d06b1899d"},
 ]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
 
 [[package]]
 name = "yarl"
@@ -6112,11 +5172,6 @@ files = [
 idna = ">=2.0"
 multidict = ">=4.0"
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "yfinance"
 version = "0.2.41"
@@ -6145,11 +5200,6 @@ requests = ">=2.31"
 nospam = ["requests-cache (>=1.0)", "requests-ratelimiter (>=0.3.1)"]
 repair = ["scipy (>=1.6.3)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [[package]]
 name = "zipp"
 version = "3.20.0"
@@ -6165,12 +5215,7 @@ files = [
 doc = ["furo", "jaraco.packaging (>=9.3)", "jaraco.tidelift (>=1.4)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-lint"]
 test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", "jaraco.test", "more-itertools", "pytest (>=6,!=8.1.*)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=2.2)", "pytest-ignore-flaky", "pytest-mypy", "pytest-ruff (>=0.2.1)"]
 
-[package.source]
-type = "legacy"
-url = "https://pypi.artifacts.furycloud.io/simple"
-reference = "meli"
-
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11, <3.12"
-content-hash = "9e73a05e97db7518003c567ace6a514e9280834a1de3e9ccc86ee0a5b1ce50cb"
+content-hash = "b2be69338faceb653338af1f2a7ee8d87ecdd3db77e57eb78e450c441f9b5d64"
