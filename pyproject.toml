@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crewai-stocks"
+version = "0.1.0"
+description = ""
+authors = ["Vinicius Freitas <viniciusscfjr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11, <3.12"
+crewai = "^0.51.1"
+yfinance = "^0.2.41"
+ipython = "^8.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
