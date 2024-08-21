@@ -4,12 +4,16 @@ version = "0.1.0"
 description = ""
 authors = ["Vinicius Freitas <viniciusscfjr@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11, <3.12"
 crewai = "^0.51.1"
 yfinance = "^0.2.41"
 ipython = "^8.26.0"
+streamlit = "^1.37.1"
+duckduckgo-search = "^6.2.10"
+pandas = "^2.2.2"
 
 [build-system]
 requires = ["poetry-core"]
